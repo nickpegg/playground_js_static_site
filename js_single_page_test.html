@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>I'm a happy little index page</title>
+
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <p>I'm a happy little index page ᕕ( ᐛ )ᕗ</p>
+    <p>You requested <span id="path"></span>. Go you!</p>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <script type="text/javascript">
+      $("span#path").html(window.location.pathname);
+    </script>
+  </body>
+</html>
