@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "title": "This is a post",
+      "body": "yay"
+    },
+    {
+      "title": "This is another post",
+      "body": "wowzers"
+    }
+  ]
+}
